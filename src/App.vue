@@ -31,7 +31,11 @@ export default {
   },
   data() {
     return {
-      list1: [{ name: "Drag Me!" }],
+      list1: [
+        { name: "Drag Me!" },
+        { name: "Drag Me 2!" },
+        { name: "Drag Me 3!" },
+      ],
       list2: [{ name: "Drag Me Too!" }],
     };
   },
